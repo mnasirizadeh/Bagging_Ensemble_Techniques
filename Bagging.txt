@@ -1,0 +1,21 @@
+Ensembles
+● Ensemble techniques are supervised learning methods to improve predictive accuracy by
+combining several base models in order to enlarge the space of possible hypothesis to
+represent our data. Ensembles are often much more accurate than the base classifiers
+that compose them.
+
+Averaging Methods:
+● Build several independent estimators and then average their predictors. This
+act of combining estimators using results in better models because it reduces
+variance. (This tactic sounds familiar)
+○ Bagging
+○ Random Forests
+○ Extra tree (Extremely randomize tree)
+
+
+Boosting Methods:
+● Base estimators are built sequentially and one tries to reduce the bias of the
+combined estimator. The motivation is to combine several weak models to
+produce a powerful ensemble. 
+○ AdaBoost
+○ Gradient Tree Boosting
